@@ -1,2 +1,2 @@
-taskapp-webapp
+taskapp-cms
 ==============
