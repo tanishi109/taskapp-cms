@@ -8,14 +8,12 @@ html
           a(ng-href='#') About
         li
           a(ng-href='#') Contact
-      h3.text-muted task app - index
+      h3.text-muted task app - cms
     div
-      p Projects
+      p Settings
       ul
-        li(ng-repeat='project in projects')
-          | {{ project.title }}
-          | {{ project.detail }}
-          | {{ project.finished }}
+        li(ng-repeat='setting in settings')
+          | Setting名: {{ setting.name }}
       div
         .footer
           p

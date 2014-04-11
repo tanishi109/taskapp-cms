@@ -12,7 +12,7 @@ app.config ($routeProvider) ->
   $routeProvider
     .when '/',
       templateUrl: 'views/index.html'
-      controller: 'ProjectCtrl'
+      controller: 'SettingsCtrl'
     .otherwise
       redirectTo: '/'
 
